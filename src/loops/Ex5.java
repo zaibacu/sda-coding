@@ -53,12 +53,11 @@ public class Ex5 {
             if(i < (size / 2)){
                 continue;
             }
-
             // Padding
             for(int k = 0; k<(width - size)/2; k++){
                 System.out.print(" ");
             }
-
+            // Pyramid
             for(int j = 0; j<size; j++){
                 if(i == (size - 1)){
                     System.out.print("*");
