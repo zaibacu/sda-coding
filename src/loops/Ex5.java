@@ -40,5 +40,37 @@ public class Ex5 {
             }
             System.out.println();
         }
+
+        System.out.println("Christmas tree");
+        drawPyramid(11, 21);
+        drawPyramid(13, 21);
+        drawPyramid(15, 21);
+
+    }
+
+    public static void drawPyramid(int size, int width){
+        for(int i = 0; i<size; i++){
+            if(i < (size / 2)){
+                continue;
+            }
+
+            // Padding
+            for(int k = 0; k<(width - size)/2; k++){
+                System.out.print(" ");
+            }
+
+            for(int j = 0; j<size; j++){
+                if(i == (size - 1)){
+                    System.out.print("*");
+                }
+                else if(i == j || (j == (size - 1 - i))){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
     }
 }
