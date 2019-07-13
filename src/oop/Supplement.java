@@ -1,6 +1,6 @@
 package oop;
 
-public class Supplement extends Excercise {
+public class Supplement extends Exercise {
     public Supplement(String name, int staminaModifier) {
         super(name, staminaModifier, 0);
     }

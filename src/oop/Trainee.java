@@ -25,10 +25,10 @@ public class Trainee {
         return strength;
     }
 
-    public void doExcercise(Excercise excercise){
-        System.out.printf("Doing %s\n", excercise);
-        this.stamina -= excercise.getStaminaModifier();
-        this.strength += excercise.getStrengthModifier();
+    public void doExcercise(Exercise exercise){
+        System.out.printf("Doing %s\n", exercise);
+        this.stamina -= exercise.getStaminaModifier();
+        this.strength += exercise.getStrengthModifier();
         printStats();
     }
 

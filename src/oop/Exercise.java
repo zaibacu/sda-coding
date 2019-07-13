@@ -1,11 +1,11 @@
 package oop;
 
-public class Excercise {
+public class Exercise {
     private String name;
     private int staminaModifier;
     private int strengthModifier;
 
-    public Excercise(String name, int staminaModifier, int strengthModifier) {
+    public Exercise(String name, int staminaModifier, int strengthModifier) {
         this.name = name;
         this.staminaModifier = staminaModifier;
         this.strengthModifier = strengthModifier;
