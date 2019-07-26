@@ -6,4 +6,4 @@ SDA Academy
 
 - [x] Basics
 - [x] Flow control, loops and arrays
-- [ ] Object Oriented programming
+- [x] Object Oriented programming
